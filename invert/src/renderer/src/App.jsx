@@ -1,8 +1,14 @@
 import { useEffect } from 'react'
 import { scroller } from 'react-scroll'
-import './assets/styles/app.scss'
+import './assets/styles/App.scss'
+import List from './components/List'
+import CurrentDate from './components/CurrentDate'
 
 function App() {
+  const makePDF = () => {
+    window.print()
+  }
+
   useEffect(() => {
     scroller.scrollTo('scroll-target', {
       duration: 800,
@@ -14,24 +20,18 @@ function App() {
   return (
     <>
       <header>
+        <p>Lem-Son Sp. z o.o. - Pub Propaganda</p>
         <h1>Inwentaryzacja </h1>
-        <p>Lem-Son Sp. z .o.o.</p>
-        <p>Pub Propaganda</p>
-        <button>Drukuj</button>
+        <CurrentDate />
+        <button onClick={makePDF}>Drukuj</button>
       </header>
       <div
         className="content"
         style={{ height: '100vh', overflowY: 'auto' }}
         id="ContainerElementID"
       >
-        <h2>Bum bumek</h2>
-        <p>Bum bumek</p>
-        <p>Bum bumek</p>
-        <p>Bum bumek</p>
-        <p>Bum bumek</p>
-        <p>Bum bumek</p>
-        <p>Bum bumek</p>
-        <div id="scroll-target" style={{ marginTop: '1000px' }}></div>
+        <List />
+        <div id="scroll-target" style={{ marginTop: 'auto' }}></div>
       </div>
     </>
   )

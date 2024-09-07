@@ -1,0 +1,33 @@
+.list{
+    display: flex;
+    width: 54rem;
+    border-bottom: solid 0.1rem gray;
+    // background-color: black;
+    margin: 0 auto;
+    p{
+       display: inline-block;
+       width: 10rem;
+       padding: 0.4rem 0;   
+    }
+    input{
+        width: 6rem;
+        text-align: center;
+        font-size: 1rem;
+        margin: 0.5rem;
+        // padding-right: 1rem ;
+        
+    }
+    .unit{
+        width: 2.5rem;
+        
+    }
+    .price{
+        width: 6.5rem;
+        padding-left: 1rem;
+    }
+    .total-price{
+        width: 10rem;
+        padding-left: 1rem;
+    }
+}
+

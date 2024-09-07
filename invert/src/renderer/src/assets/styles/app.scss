@@ -1,14 +1,29 @@
 
 .content {
-    width: 60rem;
+    width: 70rem;
     margin: 0 auto;
-    background-color: rgb(43, 44, 44);
-    padding: 2rem;
+    background-color: rgb(21, 20, 20);
+    padding: 2rem 4rem;
+    
+  h1{
+    margin-top: 4rem;
+    margin-left: 4rem;
+    color: burlywood;  
+  }
+
+
     h2 {
-        font-size: 2rem; 
-        margin-top: 10rem;
+        font-size: 1.5rem; 
+        margin-top: 2rem;
+        margin-left: 4rem;
         color: rgb(207, 207, 215);  
     }
+
+    h3{
+      margin: 1rem 0 0 4rem;
+      color: grey;
+    }
+  
     p {
         color: burlywood;
     }
@@ -17,15 +32,27 @@
 header{
    position: fixed;
    top: 0; 
-   padding: 1rem;
+   padding: 0.2rem;
    z-index: 1;
    width: 100%;
    text-align: center;
    background-color: burlywood;
    display: flex;
    justify-content: space-around;
-   align-items:center
-}
+   align-items:center;
+   h1{
+    font-size: 1.5rem;
+  }
+   button{
+    padding: 0.4rem;
+    background-color: rgb(52, 50, 50);
+    color: burlywood;
+    font-size: 1.1rem;
+    border-radius: 0.3rem;
+   }
+   }
+   
+
 
 
 #ContainerElementID::-webkit-scrollbar {
@@ -44,7 +71,7 @@ header{
   
     @page {
       size: auto; /* Automatyczne dopasowanie rozmiaru strony */
-      margin: 12mm; /* Dostosuj marginesy */
+      // margin: 3rem; /* Dostosuj marginesy */
     }
   }
 
