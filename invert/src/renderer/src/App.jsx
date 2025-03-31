@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 import { scroller } from 'react-scroll'
 import './assets/styles/App.scss'
 import List from './components/List'
-import CurrentDate from './components/CurrentDate'
+// import CurrentDate from './components/CurrentDate'
 
 function App() {
   const makePDF = () => {
@@ -22,7 +22,8 @@ function App() {
       <header>
         <p>Lem-Son Sp. z o.o. - Pub Propaganda</p>
         <h1>Inwentaryzacja </h1>
-        <CurrentDate />
+        {/* <CurrentDate /> */}
+        <p>1 kwietnia 2025</p>
         <button onClick={makePDF}>Drukuj</button>
       </header>
       <div

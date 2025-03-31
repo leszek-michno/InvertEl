@@ -31,7 +31,12 @@ export const beer = [
   },
   {
     id: 7,
-    name: 'Holba Free',
+    name: 'Miłosław IPA',
+    volume: 'butelka 0,5 L'
+  },
+  {
+    id: 16,
+    name: 'Złoty Bażant 0.0',
     volume: 'butelka 0,5 L'
   },
   {
@@ -67,7 +72,7 @@ export const beer = [
   {
     id: 14,
     name: 'Desperados',
-    volume: 'butelka 0,5 L'
+    volume: 'butelka 0,4 L'
   },
   {
     id: 15,
@@ -172,161 +177,171 @@ export const spiryt = [
   },
   {
     id: 3,
-    name: 'Soplica Wiśniowa ',
+    name: 'Saska Kawa Brendy',
     volume: 'butelka 0,5 L'
   },
   {
     id: 4,
-    name: 'Soplica Śliwkowa',
+    name: 'Saska Porzeczkowa',
     volume: 'butelka 0,5 L'
   },
   {
     id: 5,
-    name: 'Soplica Pigwowa',
+    name: 'Soplica Wiśniowa ',
     volume: 'butelka 0,5 L'
   },
   {
     id: 6,
-    name: 'Soplica Orzechowa',
+    name: 'Soplica Śliwkowa',
     volume: 'butelka 0,5 L'
   },
   {
     id: 7,
-    name: 'Soplica Malinowa',
+    name: 'Soplica Pigwowa',
     volume: 'butelka 0,5 L'
   },
   {
     id: 8,
-    name: 'Bison Grass',
+    name: 'Soplica Orzechowa',
     volume: 'butelka 0,5 L'
   },
   {
     id: 9,
-    name: 'Gorzka żołądkowa',
+    name: 'Soplica Malinowa',
     volume: 'butelka 0,5 L'
   },
   {
     id: 10,
+    name: 'Bison Grass',
+    volume: 'butelka 0,5 L'
+  },
+  {
+    id: 11,
+    name: 'Gorzka żołądkowa',
+    volume: 'butelka 0,5 L'
+  },
+  {
+    id: 12,
     name: 'Gorzka Miętowa',
     volume: 'butelka 0,7 L'
   },
   {
-    id: 11,
+    id: 13,
     name: 'Tequila Sierra',
     volume: 'butelka 0,7 L'
   },
   {
-    id: 12,
+    id: 14,
     name: 'Tequila Reposado',
     volume: 'butelka 1 L'
   },
   {
-    id: 13,
+    id: 15,
     name: 'Tequila Olmeca',
     volume: 'butelka 0,7 L'
   },
   {
-    id: 14,
+    id: 16,
     name: 'Jagermaister',
     volume: 'butelka 0,1 L'
   },
   {
-    id: 15,
+    id: 17,
     name: 'Kahlua',
     volume: 'butelka 0,7 L'
   },
   {
-    id: 16,
+    id: 18,
     name: 'Bailey',
     volume: 'butelka 0,7 L'
   },
   {
-    id: 17,
+    id: 19,
     name: 'Malibu',
     volume: 'butelka 0,5 L'
   },
   {
-    id: 18,
+    id: 20,
     name: 'Gin Seagrams',
     volume: 'butelka 0,7 L'
   },
   {
-    id: 19,
+    id: 21,
     name: 'Gin Bombay',
     volume: 'butelka 0,7 L'
   },
   {
-    id: 20,
+    id: 22,
     name: 'Havana',
     volume: 'butelka 0,7 L'
   },
   {
-    id: 21,
+    id: 23,
     name: 'Capitan Spiced',
     volume: 'butelka 0,7 L'
   },
   {
-    id: 22,
+    id: 24,
     name: 'Capitan Dark',
     volume: 'butelka 0,7 L'
   },
   {
-    id: 23,
+    id: 25,
     name: 'Passover',
     volume: 'butelka 0,7 L'
   },
   {
-    id: 24,
+    id: 26,
     name: 'Johnny Walker',
     volume: 'butelka 0,7 L'
   },
   {
-    id: 25,
+    id: 27,
     name: 'Ballantines',
     volume: 'butelka 0,7 L'
   },
   {
-    id: 26,
+    id: 28,
     name: 'Talisker',
     volume: 'butelka 0,7 L'
   },
   {
-    id: 27,
+    id: 29,
     name: 'Macallan',
     volume: 'butelka 0,7 L'
   },
   {
-    id: 28,
+    id: 30,
     name: 'Lagavulin',
     volume: 'butelka 0,7 L'
   },
   {
-    id: 29,
+    id: 31,
     name: 'Baczewski',
     volume: 'butelka 0,7 L'
   },
   {
-    id: 30,
+    id: 32,
     name: 'Jameson',
     volume: 'butelka 0,7 L'
   },
   {
-    id: 31,
+    id: 33,
     name: 'Wild Turkey',
     volume: 'butelka 0,7 L'
   },
   {
-    id: 32,
+    id: 34,
     name: 'Jim Beam',
     volume: 'butelka 0,7 L'
   },
   {
-    id: 33,
+    id: 35,
     name: 'Markers Mark',
     volume: 'butelka 0,7 L'
   },
   {
-    id: 34,
+    id: 36,
     name: 'Jack Daniels',
     volume: 'butelka 0,7 L'
   }
